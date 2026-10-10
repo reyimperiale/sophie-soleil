@@ -1,0 +1,43 @@
+/*
+ * TOKENS DE DISEÑO PROVISIONALES
+ * Todo el aspecto visual sale de estas variables. Al integrar el diseño
+ * definitivo, cambiad los valores aquí: no hace falta tocar los componentes.
+ */
+:root {
+  /* Superficies */
+  --color-bg: #0a0a0d;
+  --color-surface: #15151a;
+  --color-surface-raised: #1d1d24;
+  --color-border: rgba(255, 255, 255, 0.08);
+
+  /* Texto */
+  --color-text: #ececf1;
+  --color-text-muted: #8a8a96;
+
+  /* Burbujas */
+  --bubble-user-bg: #2a2a33;
+  --bubble-user-text: var(--color-text);
+  --bubble-assistant-bg: transparent;
+  --bubble-assistant-text: var(--color-text);
+  --bubble-error-text: #ff8a80;
+
+  /* Acento (botón de envío, estados activos) */
+  --color-accent: #ececf1;
+  --color-accent-text: #0a0a0d;
+
+  /* Marcador provisional del avatar (neutro, se elimina con vuestras imágenes) */
+  --placeholder-core: #2c2c36;
+  --placeholder-ring: rgba(255, 255, 255, 0.18);
+
+  /* Tipografía */
+  --font-body: -apple-system, BlinkMacSystemFont, "SF Pro Text", system-ui, sans-serif;
+  --font-size-body: 16px; /* 16px evita el zoom automático de iOS al escribir */
+  --line-height-body: 1.45;
+
+  /* Medidas */
+  --radius-bubble: 20px;
+  --radius-input: 22px;
+  --stage-height: 42dvh;
+  --stage-height-compact: 18dvh;
+  --app-max-width: 440px;
+}

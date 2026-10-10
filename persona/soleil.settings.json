@@ -1,0 +1,5 @@
+{
+  "temperature": 0.8,
+  "maxOutputTokens": 600,
+  "maxHistoryMessages": 30
+}
