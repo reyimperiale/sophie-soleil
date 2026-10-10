@@ -33,14 +33,26 @@ export interface AvatarConfig {
 
 export const avatarConfig: AvatarConfig = {
   states: {
-    neutral: null, // p. ej. "/avatar/neutral.png"
-    listening: null, // p. ej. "/avatar/listening.png"
-    thinking: null, // p. ej. { frames: ["/avatar/thinking-1.png", "/avatar/thinking-2.png"], fps: 4 }
-    speaking: null, // p. ej. { frames: ["/avatar/speaking-1.png", "/avatar/speaking-2.png"], fps: 8 }
-    happy: null,
-    sad: null,
-    curious: null,
+  neutral: {
+    frames: [
+      "/avatar/idle_01.png",
+      "/avatar/idle_02.png",
+      "/avatar/idle_03.png",
+      "/avatar/idle_04.png",
+      "/avatar/idle_05.png",
+      "/avatar/idle_06.png",
+      "/avatar/idle_07.png",
+      "/avatar/idle_08.png",
+    ],
+    fps: 4,
   },
+  listening: "/avatar/solecito_neutral.png",
+  thinking: "/avatar/solecito_thinking.png",
+  speaking: "/avatar/solecito_affectionate.png",
+  happy: "/avatar/solecito_happy.png",
+  sad: "/avatar/solecito_relaxed.png",
+  curious: "/avatar/solecito_curious.png",
+},
   transitionMs: 250,
   emotionHoldMs: 4000,
   minSpeakingMs: 1200,
