@@ -1,5 +1,3 @@
-Abre page.tsx en GitHub, pulsa el lápiz, borra el contenido y pega esto:
-
 "use client";
 
 import { useEffect, useState } from "react";
